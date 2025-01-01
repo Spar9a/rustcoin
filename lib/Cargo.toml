@@ -9,8 +9,10 @@ ciborium = "0.2.2"
 ecdsa = { version = "0.16.9", features = ["signing", "verifying", "serde", "pem"] }
 hex = "0.4.3"
 k256 = { version = "0.13.3", features = ["serde", "pem"] }
-serde = { version = "1.0.217", features = ["derive"] }
+serde = { version = "1.0.198", features = ["derive"] }
 sha256 = "1.5.0"
 uint = "0.9.5"
 uuid = { version = "1.11.0", features = ["v4", "serde"] }
 rand = "0.8.5"
+thiserror = "2.0.9"
+bigdecimal = "0.4.7"
