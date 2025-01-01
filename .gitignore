@@ -1,0 +1,12 @@
+# IDE and System Files
+.vscode
+.idea/
+.DS_Store
+
+# Build artefacts
+**/target
+dist
+
+# evn files
+**/.env
+**/.venv
